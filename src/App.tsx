@@ -135,13 +135,30 @@ export default function App() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-stretch">
               {/* Left Column: Editorial Headline, Subtext & Dual Actions */}
               <div className="lg:col-span-7 flex flex-col justify-center py-2">
-                <p className="text-sm font-medium text-[#111111]/65 mb-5 flex flex-wrap items-center gap-2">
-                  <span>Sophia Reyes</span>
-                  <span aria-hidden="true">·</span>
-                  <span>Beauty, Skincare &amp; Lifestyle UGC</span>
-                  <span aria-hidden="true">·</span>
-                  <span>Manila, Philippines</span>
-                </p>
+                <div className="mb-5 space-y-1.5">
+                  <p className="text-sm font-medium text-[#111111]/65 flex flex-wrap items-center gap-2">
+                    <span className="font-semibold text-[#111111]">Sophia Reyes</span>
+                    <span aria-hidden="true">·</span>
+                    <span>Beauty, Skincare &amp; Lifestyle UGC</span>
+                    <span aria-hidden="true">·</span>
+                    <span>Manila, Philippines</span>
+                  </p>
+                  <p className="text-sm font-medium text-[#111111]/75 flex flex-wrap items-center gap-2 tabular-nums">
+                    <a
+                      href="https://instagram.com/sophiaugc.ph"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 font-semibold text-[#9D4456] hover:text-[#111111] underline underline-offset-4 decoration-[#E89BA8] transition-colors"
+                    >
+                      <Instagram className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
+                      <span>@sophiaugc.ph</span>
+                    </a>
+                    <span aria-hidden="true" className="text-[#111111]/35">
+                      |
+                    </span>
+                    <span>45K Followers on TikTok</span>
+                  </p>
+                </div>
 
                 <h1 className="font-display text-[clamp(2.25rem,4vw,3.75rem)] font-bold leading-[1.08] tracking-tight text-[#111111] text-balance max-w-2xl mb-6">
                   UGC That Makes Filipino Brands Go Viral
