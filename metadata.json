@@ -1,0 +1,8 @@
+{
+  "name": "Sophia UGC — Sophia Reyes | Beauty & Lifestyle UGC Creator",
+  "description": "Portfolio and brand booking site for Sophia Reyes, a Manila-based beauty, skincare, and lifestyle UGC content creator in the Philippines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
